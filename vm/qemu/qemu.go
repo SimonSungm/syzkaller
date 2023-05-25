@@ -134,6 +134,8 @@ var archConfigs = map[string]*archConfig{
 		CmdLine: []string{
 			"root=/dev/sda",
 			"console=ttyS0",
+			"earlyprintk=serial",
+			"net.ifnames=0",
 		},
 	},
 	"linux/386": {
